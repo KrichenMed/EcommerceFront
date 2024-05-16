@@ -12,7 +12,7 @@ import Form from "react-bootstrap/Form";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import InputGroup from "react-bootstrap/InputGroup";
 import Dropdown from "react-bootstrap/Dropdown";
-import { BsSearch } from "react-icons/bs";
+//import { BsSearch } from "react-icons/bs";
 import { FaShoppingCart } from "react-icons/fa";
 import SignupModal from "./SignUpModal";
 import MyNavDropdown from "./OldLogin";
