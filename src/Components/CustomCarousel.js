@@ -4,7 +4,7 @@ import Img1 from "../Media/Img1.jpg";
 import Img2 from "../Media/Img2.jpg";
 import Img3 from "../Media/Img3.jpg";
 import Img4 from "../Media/Img4.jpg";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+//import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const images = [Img1, Img2, Img3, Img4];
 
