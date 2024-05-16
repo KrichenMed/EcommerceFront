@@ -20,8 +20,6 @@ const CustomCarousel = () => {
       fade
       activeIndex={index}
       onSelect={handleSelect}
-      nextIcon={<FaAngleRight style={{ fontSize: "24px", color: "red" }} />}
-      prevIcon={<FaAngleLeft style={{ fontSize: "24px", color: "red" }} />}
       indicators={false}
       style={{ position: "relative", marginTop: "-10px", width: "100%" }}
     >
