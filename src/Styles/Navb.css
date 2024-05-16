@@ -1,0 +1,34 @@
+/*Navbar*/
+.link-container {
+    display: flex;
+}
+
+.search-form {
+    width: 40%;
+}
+
+.search-input {
+    border-radius: 0px;
+    margin: 0px;
+    color: black;
+}
+
+.search-button {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-width: 0px;
+}
+
+#button-container {
+    background-color: #222526;
+    margin-bottom: 10px;
+}
+
+#button-container>Button {
+    border-radius: 0px;
+}
+
+/* Add more styles as needed */
+#input-group-dropdown-1{
+    background-color: aliceblue;
+}

@@ -1,0 +1,101 @@
+/*HOME*/
+#customCarouselContainer {
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.productContainer {
+    position: relative;
+    z-index: 1;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -13%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    padding-bottom: 2.5px;
+    background-color: #00000036;
+}
+
+
+.nextButton {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.nextButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.nextButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.nextButton:hover span {
+    padding-right: 25px;
+}
+
+.nextButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.prevButton {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.prevButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.prevButton span:before {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.prevButton:hover span {
+    padding-left: 25px;
+}
+
+.prevButton:hover span:before {
+    opacity: 1;
+    left: 0;
+}
