@@ -13,7 +13,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 import InputGroup from "react-bootstrap/InputGroup";
 import Dropdown from "react-bootstrap/Dropdown";
 //import { BsSearch } from "react-icons/bs";
-import { FaShoppingCart } from "react-icons/fa";
+//import { FaShoppingCart } from "react-icons/fa";
 import SignupModal from "./SignUpModal";
 import MyNavDropdown from "./OldLogin";
 import CustomOffcanvas from "./OffCanvasAll";
@@ -150,7 +150,7 @@ function Navb() {
                     aria-label="Search"
                   />
                   <Button variant="light" className="search-button">
-                    <BsSearch />
+                    
                   </Button>
                 </InputGroup>
               </Form>
@@ -159,8 +159,8 @@ function Navb() {
                 className="nav-link"
                 style={{ color: "white" }}
               >
-                {/*onClick={handleShowModal}*/}
-                Cart <FaShoppingCart />
+                {/*onClick={handleShowModal} <FaShoppingCart />*/}
+                Cart 
               </Link>
 
               <div>
